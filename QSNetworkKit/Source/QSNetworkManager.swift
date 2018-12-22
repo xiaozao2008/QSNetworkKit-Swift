@@ -9,13 +9,20 @@
 import Foundation
 
 
-let QSNetwork = QSNetworkManager()
 
-class QSNetworkManager {
+class QSNetwork {
     
-    func request(_ url: URLFormatProtocol) -> QSNetworkManager {
+    
+    public static func request(_ url: QSURLFormat, method: QSHTTPMethod = .get, headers: QSHTTPHeaders? = nil,  params: [String: Any]? = nil) -> Data? {
         
-        return QSNetwork
+        if let request = try? URLRequest.init(url: url, method: method, headers: headers) {
+//            request.httpBody =
+            URLSession.shared.dataTask(with: request) { (data, response, error) in
+                
+            }.resume()
+        }
+        
+        return nil
     }
     
 }

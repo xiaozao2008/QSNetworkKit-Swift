@@ -1,5 +1,5 @@
 //
-//  QSMethod.swift
+//  QSHTTPMethod.swift
 //  QSNetworkKit
 //
 //  Created by xiaozao on 2018/12/21.

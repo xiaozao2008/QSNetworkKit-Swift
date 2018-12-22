@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0371058D21CE251E00AB3D8C /* QSParamEncode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0371058C21CE251E00AB3D8C /* QSParamEncode.swift */; };
-		0371058F21CE25E900AB3D8C /* QSRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0371058E21CE25E900AB3D8C /* QSRequestProtocol.swift */; };
+		0371058F21CE25E900AB3D8C /* QSRequestFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0371058E21CE25E900AB3D8C /* QSRequestFormat.swift */; };
 		038CCE8E21CBB06B00E88607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038CCE8D21CBB06B00E88607 /* AppDelegate.swift */; };
 		038CCE9021CBB06B00E88607 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038CCE8F21CBB06B00E88607 /* ViewController.swift */; };
 		038CCE9321CBB06B00E88607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038CCE9121CBB06B00E88607 /* Main.storyboard */; };
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		0371058C21CE251E00AB3D8C /* QSParamEncode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSParamEncode.swift; sourceTree = "<group>"; };
-		0371058E21CE25E900AB3D8C /* QSRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSRequestProtocol.swift; sourceTree = "<group>"; };
+		0371058E21CE25E900AB3D8C /* QSRequestFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSRequestFormat.swift; sourceTree = "<group>"; };
 		038CCE8A21CBB06B00E88607 /* QSNetworkKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSNetworkKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		038CCE8D21CBB06B00E88607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		038CCE8F21CBB06B00E88607 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 				03FABE3121CCBA8900FD81A9 /* QSHTTPMethod.swift */,
 				03FABE3321CCBAA400FD81A9 /* QSHTTPHeader.swift */,
 				03FABE2C21CC9B2400FD81A9 /* QSURLProtocol.swift */,
-				0371058E21CE25E900AB3D8C /* QSRequestProtocol.swift */,
+				0371058E21CE25E900AB3D8C /* QSRequestFormat.swift */,
 			);
 			path = QSRequest;
 			sourceTree = "<group>";
@@ -208,7 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				038CCEA121CBB0A900E88607 /* QSNetworkManager.swift in Sources */,
-				0371058F21CE25E900AB3D8C /* QSRequestProtocol.swift in Sources */,
+				0371058F21CE25E900AB3D8C /* QSRequestFormat.swift in Sources */,
 				038CCE9021CBB06B00E88607 /* ViewController.swift in Sources */,
 				03FABE3221CCBA8900FD81A9 /* QSHTTPMethod.swift in Sources */,
 				03FABE2F21CC9D8100FD81A9 /* QSNetworkError.swift in Sources */,

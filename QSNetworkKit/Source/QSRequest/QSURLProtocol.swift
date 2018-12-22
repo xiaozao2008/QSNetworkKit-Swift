@@ -1,5 +1,5 @@
 //
-//  QSRequestProtocol.swift
+//  QSURLFormat.swift
 //  QSNetworkKit
 //
 //  Created by xiaozao on 2018/12/21.
@@ -8,12 +8,12 @@
 
 import Foundation
 
-public protocol URLFormatProtocol {
+public protocol QSURLFormat {
     /// return A URL or throws an QSError
     func asURL() throws -> URL
 }
 
-extension String: URLFormatProtocol {
+extension String: QSURLFormat {
     /// return: String -> URL
     /// throws: QSError.UnknownURL
     public func asURL() throws -> URL {
@@ -22,12 +22,12 @@ extension String: URLFormatProtocol {
     }
 }
 
-extension URL: URLFormatProtocol {
+extension URL: QSURLFormat {
     /// return self
     public func asURL() throws -> URL {  return self }
 }
 
-extension URLComponents: URLFormatProtocol {
+extension URLComponents: QSURLFormat {
     /// return: String -> URL
     /// throws: QSError.UnknownURL
     public func asURL() throws -> URL {

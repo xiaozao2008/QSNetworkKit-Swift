@@ -9,7 +9,18 @@
 import Foundation
 
 
-class QSRequest {
+struct QSRequest: QSRequestFormat {
+    
+    func asURLRequest() throws -> URLRequest {
+        let request = try URLRequest(url: url, method: method, headers: headers)
+        return try encoding.encode(request, with: parameters)
+    }
+    
+    let url: QSURLFormat
+    let method: QSHTTPMethod
+    let parameters: Parameters?
+    let encoding: QSParamEncode
+    let headers: QSHTTPHeaders?
     
 }
 

@@ -11,5 +11,6 @@ import Foundation
 
 enum QSError: Error {
     
-    case UnknownURL(url: URLFormatProtocol)  /// 未知URL
+    case UnknownURL(url: QSURLFormat)  /// 未知URL
+    case EncodingFailed(error: Error)
 }

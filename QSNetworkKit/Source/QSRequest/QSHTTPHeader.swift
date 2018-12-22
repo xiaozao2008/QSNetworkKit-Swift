@@ -1,5 +1,5 @@
 //
-//  QSHeader.swift
+//  QSHTTPHeaders.swift
 //  QSNetworkKit
 //
 //  Created by xiaozao on 2018/12/21.
@@ -246,7 +246,7 @@ extension QSHTTPHeader {
                 let version = ProcessInfo.processInfo.operatingSystemVersion
                 let versionString = "\(version.majorVersion).\(version.minorVersion).\(version.patchVersion)"
                 let qsVersion: String = {
-                    guard let version = Bundle(for: QSNetworkManager.self).infoDictionary?["CFBundleShortVersionString"] as? String else {
+                    guard let version = Bundle(for: QSNetwork.self).infoDictionary?["CFBundleShortVersionString"] as? String else {
                         return "Unknown"
                     }
                     return "QSNetwork/\(version)"
