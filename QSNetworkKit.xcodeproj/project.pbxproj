@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0371058D21CE251E00AB3D8C /* QSParamEncode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0371058C21CE251E00AB3D8C /* QSParamEncode.swift */; };
+		0371058F21CE25E900AB3D8C /* QSRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0371058E21CE25E900AB3D8C /* QSRequestProtocol.swift */; };
+		038CCE8E21CBB06B00E88607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038CCE8D21CBB06B00E88607 /* AppDelegate.swift */; };
+		038CCE9021CBB06B00E88607 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038CCE8F21CBB06B00E88607 /* ViewController.swift */; };
+		038CCE9321CBB06B00E88607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038CCE9121CBB06B00E88607 /* Main.storyboard */; };
+		038CCE9521CBB06C00E88607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038CCE9421CBB06C00E88607 /* Assets.xcassets */; };
+		038CCE9821CBB06C00E88607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 038CCE9621CBB06C00E88607 /* LaunchScreen.storyboard */; };
+		038CCEA121CBB0A900E88607 /* QSNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038CCEA021CBB0A900E88607 /* QSNetworkManager.swift */; };
+		038CCEA821CBB14B00E88607 /* QSRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038CCEA721CBB14B00E88607 /* QSRequest.swift */; };
+		03FABE2D21CC9B2400FD81A9 /* QSURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FABE2C21CC9B2400FD81A9 /* QSURLProtocol.swift */; };
+		03FABE2F21CC9D8100FD81A9 /* QSNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FABE2E21CC9D8000FD81A9 /* QSNetworkError.swift */; };
+		03FABE3221CCBA8900FD81A9 /* QSHTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FABE3121CCBA8900FD81A9 /* QSHTTPMethod.swift */; };
+		03FABE3421CCBAA400FD81A9 /* QSHTTPHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FABE3321CCBAA400FD81A9 /* QSHTTPHeader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0371058C21CE251E00AB3D8C /* QSParamEncode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSParamEncode.swift; sourceTree = "<group>"; };
+		0371058E21CE25E900AB3D8C /* QSRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSRequestProtocol.swift; sourceTree = "<group>"; };
+		038CCE8A21CBB06B00E88607 /* QSNetworkKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSNetworkKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		038CCE8D21CBB06B00E88607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		038CCE8F21CBB06B00E88607 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		038CCE9221CBB06B00E88607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		038CCE9421CBB06C00E88607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		038CCE9721CBB06C00E88607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		038CCE9921CBB06C00E88607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		038CCEA021CBB0A900E88607 /* QSNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSNetworkManager.swift; sourceTree = "<group>"; };
+		038CCEA721CBB14B00E88607 /* QSRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSRequest.swift; sourceTree = "<group>"; };
+		03FABE2C21CC9B2400FD81A9 /* QSURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSURLProtocol.swift; sourceTree = "<group>"; };
+		03FABE2E21CC9D8000FD81A9 /* QSNetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSNetworkError.swift; sourceTree = "<group>"; };
+		03FABE3121CCBA8900FD81A9 /* QSHTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSHTTPMethod.swift; sourceTree = "<group>"; };
+		03FABE3321CCBAA400FD81A9 /* QSHTTPHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QSHTTPHeader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		038CCE8721CBB06B00E88607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038CCE8121CBB06B00E88607 = {
+			isa = PBXGroup;
+			children = (
+				038CCE8C21CBB06B00E88607 /* QSNetworkKit */,
+				038CCE8B21CBB06B00E88607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		038CCE8B21CBB06B00E88607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				038CCE8A21CBB06B00E88607 /* QSNetworkKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		038CCE8C21CBB06B00E88607 /* QSNetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				038CCE8D21CBB06B00E88607 /* AppDelegate.swift */,
+				038CCE8F21CBB06B00E88607 /* ViewController.swift */,
+				038CCE9F21CBB08200E88607 /* Source */,
+				038CCE9121CBB06B00E88607 /* Main.storyboard */,
+				038CCE9421CBB06C00E88607 /* Assets.xcassets */,
+				038CCE9621CBB06C00E88607 /* LaunchScreen.storyboard */,
+				038CCE9921CBB06C00E88607 /* Info.plist */,
+			);
+			path = QSNetworkKit;
+			sourceTree = "<group>";
+		};
+		038CCE9F21CBB08200E88607 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				038CCEA021CBB0A900E88607 /* QSNetworkManager.swift */,
+				03FABE2E21CC9D8000FD81A9 /* QSNetworkError.swift */,
+				038CCEA621CBB11700E88607 /* QSSessionManager */,
+				038CCEA521CBB10D00E88607 /* QSReachability */,
+				038CCEA421CBB0EF00E88607 /* QSClient */,
+				038CCEA321CBB0B900E88607 /* QSResponse */,
+				038CCEA221CBB0AE00E88607 /* QSRequest */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		038CCEA221CBB0AE00E88607 /* QSRequest */ = {
+			isa = PBXGroup;
+			children = (
+				038CCEA721CBB14B00E88607 /* QSRequest.swift */,
+				0371058C21CE251E00AB3D8C /* QSParamEncode.swift */,
+				03FABE3121CCBA8900FD81A9 /* QSHTTPMethod.swift */,
+				03FABE3321CCBAA400FD81A9 /* QSHTTPHeader.swift */,
+				03FABE2C21CC9B2400FD81A9 /* QSURLProtocol.swift */,
+				0371058E21CE25E900AB3D8C /* QSRequestProtocol.swift */,
+			);
+			path = QSRequest;
+			sourceTree = "<group>";
+		};
+		038CCEA321CBB0B900E88607 /* QSResponse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QSResponse;
+			sourceTree = "<group>";
+		};
+		038CCEA421CBB0EF00E88607 /* QSClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QSClient;
+			sourceTree = "<group>";
+		};
+		038CCEA521CBB10D00E88607 /* QSReachability */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QSReachability;
+			sourceTree = "<group>";
+		};
+		038CCEA621CBB11700E88607 /* QSSessionManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QSSessionManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		038CCE8921CBB06B00E88607 /* QSNetworkKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 038CCE9C21CBB06C00E88607 /* Build configuration list for PBXNativeTarget "QSNetworkKit" */;
+			buildPhases = (
+				038CCE8621CBB06B00E88607 /* Sources */,
+				038CCE8721CBB06B00E88607 /* Frameworks */,
+				038CCE8821CBB06B00E88607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QSNetworkKit;
+			productName = QSNetworkKit;
+			productReference = 038CCE8A21CBB06B00E88607 /* QSNetworkKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		038CCE8221CBB06B00E88607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Tony;
+				TargetAttributes = {
+					038CCE8921CBB06B00E88607 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 038CCE8521CBB06B00E88607 /* Build configuration list for PBXProject "QSNetworkKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 038CCE8121CBB06B00E88607;
+			productRefGroup = 038CCE8B21CBB06B00E88607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				038CCE8921CBB06B00E88607 /* QSNetworkKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		038CCE8821CBB06B00E88607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038CCE9821CBB06C00E88607 /* LaunchScreen.storyboard in Resources */,
+				038CCE9521CBB06C00E88607 /* Assets.xcassets in Resources */,
+				038CCE9321CBB06B00E88607 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		038CCE8621CBB06B00E88607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038CCEA121CBB0A900E88607 /* QSNetworkManager.swift in Sources */,
+				0371058F21CE25E900AB3D8C /* QSRequestProtocol.swift in Sources */,
+				038CCE9021CBB06B00E88607 /* ViewController.swift in Sources */,
+				03FABE3221CCBA8900FD81A9 /* QSHTTPMethod.swift in Sources */,
+				03FABE2F21CC9D8100FD81A9 /* QSNetworkError.swift in Sources */,
+				038CCE8E21CBB06B00E88607 /* AppDelegate.swift in Sources */,
+				03FABE2D21CC9B2400FD81A9 /* QSURLProtocol.swift in Sources */,
+				03FABE3421CCBAA400FD81A9 /* QSHTTPHeader.swift in Sources */,
+				038CCEA821CBB14B00E88607 /* QSRequest.swift in Sources */,
+				0371058D21CE251E00AB3D8C /* QSParamEncode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		038CCE9121CBB06B00E88607 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				038CCE9221CBB06B00E88607 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		038CCE9621CBB06C00E88607 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				038CCE9721CBB06C00E88607 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		038CCE9A21CBB06C00E88607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		038CCE9B21CBB06C00E88607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		038CCE9D21CBB06C00E88607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QSNetworkKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tony.QSNetworkKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		038CCE9E21CBB06C00E88607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QSNetworkKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tony.QSNetworkKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		038CCE8521CBB06B00E88607 /* Build configuration list for PBXProject "QSNetworkKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038CCE9A21CBB06C00E88607 /* Debug */,
+				038CCE9B21CBB06C00E88607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		038CCE9C21CBB06C00E88607 /* Build configuration list for PBXNativeTarget "QSNetworkKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038CCE9D21CBB06C00E88607 /* Debug */,
+				038CCE9E21CBB06C00E88607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 038CCE8221CBB06B00E88607 /* Project object */;
+}
